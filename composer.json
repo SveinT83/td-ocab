@@ -10,7 +10,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "TronderData\\Ocab\\OcabServiceProvider"
+                "TronderData\\Ocab\\Providers\\OcabServiceProvider"
             ]
         }
     },

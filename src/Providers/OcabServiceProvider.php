@@ -7,8 +7,6 @@ use Illuminate\Support\Facades\Route;
 
 class OcabServiceProvider extends ServiceProvider
 {
-
-
     /**
      * Bootstrap tjenesten.
      */
@@ -22,5 +20,13 @@ class OcabServiceProvider extends ServiceProvider
 
         // Last inn view-filer
         $this->loadViewsFrom(__DIR__ . '/../Resources/views', 'ocab');
+    }
+
+    /**
+     * Register tjenesten.
+     */
+    public function register()
+    {
+        //
     }
 }
