@@ -3,6 +3,9 @@
 ## 📌 1. Purpose
 **td-ocab** is a module in TaskHub designed to handle the reception, assessment, testing, technical cleaning, and potential repair of equipment received from insurance company partners like Ocab AS. The module ensures a structured and efficient process from registration to case closure.
 
+Each project (case) can contain multiple devices.
+Devices are individually assessed, but approval and invoicing are handled at the project level.
+
 ### **Key Features**
 - **Receiving and registering equipment** linked to a reference number (customer project number).
 - **Documenting damages** with images.
@@ -104,6 +107,8 @@ For questions or suggestions for improvements, please contact the **TaskHub deve
 
 ## 📌 1. Formål
 **td-ocab** er en modul i TaskHub som håndterer mottak, vurdering, testing, teknisk rens og eventuell reparasjon av utstyr levert inn av forsikringsselskapenes partnere, som Ocab AS. Modulen sikrer en oversiktlig og strømlinjeformet prosess fra registrering til avsluttet sak.
+Hvert prosjekt (sak) kan inneholde flere enheter.
+Enheter vurderes individuelt, men godkjenning og fakturering håndteres på prosjektnivå.
 
 ### **Hovedfunksjoner**
 - **Mottak og registrering** av utstyr knyttet til et referansenummer (kundens prosjektnummer).
